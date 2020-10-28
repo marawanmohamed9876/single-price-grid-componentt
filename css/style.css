@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  background-color: hsl(204, 43%, 93%);
+  font-family: "Karla", sans-serif;
+  color: #fff;
+}
+
+.row {
+  margin: 0;
+}
+
+.col-lg-6 {
+  margin: 0;
+  padding: 0;
+}
+
+#sections-containers {
+  background-color: #fff;
+  width: 55%;
+  margin: 2.5% auto 2.5%;
+}
+
+/* heading section */
+
+#heading-section {
+  padding: 5% 6% 5% 6%;
+}
+
+.heading-title {
+  color: hsl(179, 62%, 43%);
+  margin-bottom: 2%;
+  font-weight: 500;
+}
+
+.heading-h3 {
+  color: hsl(71, 73%, 54%);
+  margin-bottom: 2%;
+}
+
+.heading-paragraph {
+  color: hsl(218, 22%, 67%);
+  line-height: 2;
+}
+
+/* Subscription section */
+
+.subscribe {
+  background-color: hsl(179, 62%, 43%);
+  padding: 12% 10% 0% 10%;
+  height: 100%;
+}
+
+.subscribe-title {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 17px;
+}
+
+.price-handling {
+  display: flex;
+}
+
+.subscribe-price {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+span {
+  font-size: 1.5rem;
+  margin-top: 9px;
+  margin-left: 19px;
+  opacity: 0.4;
+}
+
+.subscribe-paragraph {
+  font-size: 1.3rem;
+  color: hsl(204, 43%, 90%);
+  font-weight: 200;
+}
+
+.sign-up {
+  background-color: hsl(71, 73%, 54%);
+  border-color: hsl(71, 73%, 54%);
+  border: 1px;
+  color: hsl(204, 43%, 93%);
+  margin: 10% 0%;
+}
+
+.sign-up:hover {
+  background-color: hsl(71, 73%, 54%);
+  opacity: 0.9;
+  color: hsl(204, 43%, 93%);
+}
+
+.subscribe-handling {
+  padding: 0% 10% 0% 0%;
+}
+
+.why-us {
+  background-color: hsl(179, 62%, 46%);
+  height: 50vh;
+  padding: 12% 10% 0% 10%;
+  height: 100%;
+}
+
+.why-title {
+  margin-bottom: 10px;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.why-us ul {
+  list-style: none;
+  padding: 0;
+}
+
+.why-us ul li {
+  margin-bottom: 2px;
+  color: hsl(204, 43%, 93%);
+  font-weight: 200;
+  font-size: 17px;
+}
+
+@media (max-width: 757px) {
+  #sections-containers {
+    width: 80%;
+    margin: 3.5% auto 3.5% auto;
+  }
+}
+
+@media (max-width: 525px) {
+  .heading-title {
+    font-size: 1.9rem;
+    margin-bottom: 14px;
+  }
+
+  .heading-h3 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+  }
+
+  .heading-paragraph {
+    font-size: 13px;
+  }
+
+  .subscribe-title {
+    font-size: 1.3rem;
+  }
+
+  .subscribe-price {
+    font-size: 2rem;
+  }
+
+  span {
+    font-size: 1.2rem;
+    margin-top: 3px;
+  }
+
+  .subscribe-paragraph{
+    font-size: 16px;
+  }
+}
